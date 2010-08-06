@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.cyanogenmod.cmpartshelper">
+
+    <uses-sdk android:minSdkVersion="8" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.HARDWARE_TEST" />
+
+    <application android:label="@string/app_name" android:icon="@drawable/cm_icon">
+      <receiver android:name=".mvuisdReceiver" android:enabled="true">
+        <intent-filter>
+          <action android:name="com.cyanogenmod.cmparts.SAVE_CMPARTS_UI"></action>
+        </intent-filter>
+      </receiver>
+      <receiver android:name=".mvsduiReceiver" android:enabled="true">
+        <intent-filter>
+          <action android:name="com.cyanogenmod.cmparts.RESTORE_CMPARTS_UI"></action>
+        </intent-filter>
+      </receiver>
+    </application>
+</manifest>

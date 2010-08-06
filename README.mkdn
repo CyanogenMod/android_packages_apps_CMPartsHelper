@@ -1,0 +1,9 @@
+CMParts
+=======
+
+What is CMParts?
+----------------
+CMParts is a central location for CyanogenMod specific settings, instead of cluttering the AOSP Settings app.
+
+Note - This repository has been moved to http://github.com/CyanogenMod/android_packages_apps_CMParts
+
