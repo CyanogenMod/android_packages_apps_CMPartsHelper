@@ -3,8 +3,8 @@
     <!-- Generic -->
     <string name="app_name">CyanogenMod-Einstellungshelfer</string>
     <string name="cmparts_ui">Sicherung / Wiederherstellung</string>
-    <string name="helper_cmui_fail">Fehler beim Schreiben von /sdcard/cmparts_ui.cml</string>
-    <string name="helper_cmui_success">Erfolgreiches Schreiben von /sdcard/cmparts_ui.cml</string>
+    <string name="helper_cmui_fail">Fehler beim Schreiben von /sdcard/cmparts_ui.xml</string>
+    <string name="helper_cmui_success">Erfolgreiches Schreiben von /sdcard/cmparts_ui.xml</string>
     <string name="xml_sdcard_unmounted">SD-Karte nicht eingebunden!</string>
     <string name="helper_complete">Einstellungshelfer ist fertig und kehrt zurück zu CMParts</string>
 </resources>

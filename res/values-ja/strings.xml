@@ -3,8 +3,8 @@
     <!-- Generic -->
     <string name="app_name">CyanogenMod設定ヘルパー</string>
     <string name="cmparts_ui">ユーザインタフェースバックアップ/リストア</string>
-    <string name="helper_cmui_fail">書き込み失敗: /sdcard/cmparts_ui.cml</string>
-    <string name="helper_cmui_success">書き込み成功: /sdcard/cmparts_ui.cml</string>
+    <string name="helper_cmui_fail">書き込み失敗: /sdcard/cmparts_ui.xml</string>
+    <string name="helper_cmui_success">書き込み成功: /sdcard/cmparts_ui.xml</string>
     <string name="xml_sdcard_unmounted">SDカードがマウントされてません!</string>
     <string name="helper_complete">ヘルパーは完了しました。CMPartsへ戻ります。</string>
 </resources>
