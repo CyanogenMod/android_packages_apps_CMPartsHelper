@@ -9,14 +9,19 @@
     <uses-permission android:name="android.permission.HARDWARE_TEST" />
 
     <application android:label="@string/app_name" android:icon="@drawable/cm_icon">
-      <receiver android:name=".mvuisdReceiver" android:enabled="true">
+      <receiver android:name=".MvuisdReceiver" android:enabled="true">
         <intent-filter>
           <action android:name="com.cyanogenmod.cmparts.SAVE_CMPARTS_UI"></action>
         </intent-filter>
       </receiver>
-      <receiver android:name=".mvsduiReceiver" android:enabled="true">
+      <receiver android:name=".MvsduiReceiver" android:enabled="true">
         <intent-filter>
           <action android:name="com.cyanogenmod.cmparts.RESTORE_CMPARTS_UI"></action>
+        </intent-filter>
+      </receiver>
+      <receiver android:name=".GetThemeListReceiver" android:enabled="true">
+        <intent-filter>
+          <action android:name="com.cyanogenmod.cmparts.GET_THEME_LIST"></action>
         </intent-filter>
       </receiver>
     </application>

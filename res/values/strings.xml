@@ -3,8 +3,8 @@
     <!-- Generic -->
     <string name="app_name">CyanogenMod settings helper</string>
     <string name="cmparts_ui">User interface backup / restore</string>
-    <string name="helper_cmui_fail">Failed to write /sdcard/cmparts_ui.xml</string>
-    <string name="helper_cmui_success">Successfully wrote /sdcard/cmparts_ui.xml</string>
+    <string name="helper_cmui_fail">Failed to write:</string>
+    <string name="helper_cmui_success">Successfully wrote:</string>
     <string name="xml_sdcard_unmounted">SD card not mounted!</string>
     <string name="helper_complete">Helper has completed and is going back to CMParts</string>
 </resources>

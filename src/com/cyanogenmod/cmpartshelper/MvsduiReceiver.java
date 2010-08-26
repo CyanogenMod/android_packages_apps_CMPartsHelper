@@ -14,14 +14,16 @@ import java.io.DataInputStream;
 import com.cyanogenmod.cmpartshelper.R;
 
 
-public class mvsduiReceiver extends BroadcastReceiver {
+public class MvsduiReceiver extends BroadcastReceiver {
 
     public static final String mvSdUi = "com.cyanogenmod.cmparts.RESTORE_CMPARTS_UI";
 
     @Override
     public void onReceive(Context context, Intent intent) {
         if (intent.getAction().equals(mvSdUi)) {
-            File xmlFile = new File(Environment.getExternalStorageDirectory() + "/cmparts_ui.xml");
+            Bundle extras = intent.getExtras();
+            String filename = extras.getString("filename");
+            File xmlFile = new File(Environment.getExternalStorageDirectory() + "/CMTheme/" + filename);
             if (xmlFile.exists()) {
                 try {
                     FileInputStream infile = new FileInputStream(xmlFile);
