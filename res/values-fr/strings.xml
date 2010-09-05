@@ -3,8 +3,8 @@
     <!-- Generic -->
     <string name="app_name">Assistant CyanogenMod</string>
     <string name="cmparts_ui">Sauvegarde/Restauration de l\'interface utilisateur</string>
-    <string name="helper_cmui_fail">Impossible d\'écrire dans /sdcard/cmparts_ui.cml</string>
-    <string name="helper_cmui_success">Fichier /sdcard/cmparts_ui.cml écrit avec succès</string>
+    <string name="helper_cmui_fail">Impossible d\'écrire dans : </string>
+    <string name="helper_cmui_success">Fichier écrit avec succès : </string>
     <string name="xml_sdcard_unmounted">La carte SD n\'est pas montée !</string>
     <string name="helper_complete">L\'assistant est terminé et va vous ramener dans CMParts</string>
 </resources>
