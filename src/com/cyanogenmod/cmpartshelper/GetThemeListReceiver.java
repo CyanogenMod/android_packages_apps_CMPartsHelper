@@ -39,6 +39,7 @@ public class GetThemeListReceiver extends BroadcastReceiver {
                     }
                 } catch (Exception e) { }
             } else {
+                themeDir.mkdir(); // make the folder if it's not there yet.
                 Intent returnFiles = new Intent("com.cyanogenmod.cmpartshelper.GET_THEME_LIST");
                 returnFiles.putExtra("gotfile", -1);
                 returnFiles.putExtra("filelist", new String[] {});
