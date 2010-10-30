@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Generic -->
+    <string name="app_name">CyanogenMod 설정 도우미</string>
+	<string name="cmparts_ui">사용자 환경 백업 / 되돌리기</string>
+    <string name="helper_cmui_fail">기록 실패:</string>
+    <string name="helper_cmui_success">기록 성공:</string>
+    <string name="xml_sdcard_unmounted">SD 카드가 인식되지 않았습니다.</string>
+    <string name="helper_complete">도우미가 완료되었습니다. CyanogenMod 설정으로 돌아갑니다.</string>
+</resources>
