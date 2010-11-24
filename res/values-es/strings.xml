@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Generic -->
+    <string name="app_name">Ayda parametros CyanogenMod</string>
+    <string name="cmparts_ui">Backup / restore Interface usuario</string>
+    <string name="helper_cmui_fail">Error de escritura:</string>
+    <string name="helper_cmui_success">Escritura correcta:</string>
+    <string name="xml_sdcard_unmounted">SD card no montada!</string>
+    <string name="helper_complete">La ayuda ha terminado y retornamos a CMParts</string>
+</resources>
