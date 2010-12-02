@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">Assistent de configuració del CyanogenMod</string>
+  <string name="cmparts_ui">Fes/recupera una còpia de seguretat de la interfície d\'usuari</string>
+  <string name="helper_cmui_fail">S\'ha produït un error en escriure:</string>
+  <string name="helper_cmui_success">S\'ha escrit correctament:</string>
+  <string name="xml_sdcard_unmounted">La targeta SD no s\'ha muntat!</string>
+  <string name="helper_complete">L\'assistent d\'ajuda ha finalitzat, ara tornarà a CMParts</string>
+</resources>
