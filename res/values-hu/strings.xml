@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Generic -->
+    <string name="app_name">CyanogenMod beállítás-segítő</string>
+    <string name="cmparts_ui">Felhasználói felület biztonsági mentése / visszaállítása</string>
+    <string name="helper_cmui_fail">Sikertelen írás:</string>
+    <string name="helper_cmui_success">Sikeres írás:</string>
+    <string name="xml_sdcard_unmounted">Az SD kártya nincs csatlakoztatva!</string>
+    <string name="helper_complete">A segítő végzett és visszatér a CMParts-ba</string>
+</resources>
