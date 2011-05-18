@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Generic -->
+    <string name="app_name">CyanogenMod instellingen begeleider</string>
+    <string name="cmparts_ui">Backup / herstel gebruikersinterface</string>
+    <string name="helper_cmui_fail">Wegschrijven van onderstaand bestand is mislukt:</string>
+    <string name="helper_cmui_success">Wegschrijven van onderstaand bestand is gelukt:</string>
+    <string name="xml_sdcard_unmounted">SD kaart niet aangesloten!</string>
+    <string name="helper_complete">Begeleider is klaar en gaat terug naar CMParts</string>
+</resources>
